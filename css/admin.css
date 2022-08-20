@@ -1,0 +1,111 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+.tbl-full{
+    width: 100%;
+}
+table tr th{
+    border: 1px solid;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+
+.btn-add{
+    padding: 1%;
+    background-color: rgb(228, 133, 60);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.btn-add:hover{
+    background-color: #d75e25;
+}
+
+.btn-update{
+    padding: 1%;
+    background-color: rgb(27, 215, 77);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.btn-update:hover{
+    background-color: #18c926;
+}
+
+.btn-dlt{
+    padding: 1%;
+    background-color: rgb(228, 85, 60);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.btn-dlt:hover{
+    background-color: #de2d1a;
+}
+
+
+/*menu*/
+.menu{
+    background-color: bisque;
+}
+.menu ul{
+    list-style: none; 
+      
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #d75e25;
+    font-weight: bold;
+}
+
+/*main-content*/
+.main-content{
+    background-color: rgb(232, 207, 185);
+    padding: 2% 0;
+}
+
+.col{
+    width: 18%;
+    background-color: rgb(241, 237, 231);
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+
+/*footer*/
+.footer{
+    background-color: rgb(40, 29, 26);
+    color: white;
+}
+
+
+/*login page*/
+.login{
+    border: 1px solid;
+    width: 30%;
+    margin: 10% auto;
+    padding: 2%;
+}
